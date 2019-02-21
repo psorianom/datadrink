@@ -73,11 +73,11 @@
 	
 	\textbf{APPELANTE}
 	
-	Madame \hl{Rosine DU-NOM-FAUX}\\
+	Madame \textcolor{violet}{Rosine DU-NOM-FAUX}\\
 	\textcolor{red}{123, rue de la Vieille-Lanterne}\\
 	
 	\textcolor{red}{97130 CAPESTERRE BELLE EAU}\\
-	\textcolor{green}{née le 01 janvier 2000}
+	\textcolor{black}{née le 01 janvier 2000}
 	
 	Représentée par Me \textcolor{orange}{Christiane ROMIL} (TOQUE 119) [...]
 \end{block}
@@ -101,9 +101,9 @@
 	
 	\textbf{APPELANTE}
 	
-	Madame \textcolor{blue}{B... D...}\\
+	Madame \textcolor{violet}{B... D...}\\
 	\textcolor{red}{...}\\
-	\textcolor{green}{...}
+	\textcolor{black}{...}
 	
 	Représentée par Me \textcolor{orange}{E... F...} (TOQUE 119) [...]
 \end{block}
@@ -111,7 +111,7 @@
 
 
 
-\begin{frame}{Problématique}
+\begin{frame}{Pourquoi~?}
 \begin{itemize}	
 	\item<1-> Les décisions doivent être mises à disposition du public dans le respect de la vie privée {\textit{(Loi pour une République numérique)}}
 	\item<2-> Près de 3,9 millions de décisions de justice par an
@@ -171,7 +171,7 @@
 \end{frame}
 
 
-\begin{frame}{Résultats préliminaires}
+\begin{frame}{Résultats des expériences}
 %\begin{table}[]
 %	\centering  
 %	\begin{tabular}{@{}llllll@{}}
@@ -243,26 +243,42 @@
 \end{columns}
 \end{frame}
 
-\begin{frame}{Générer fake data}
+\begin{frame}{Générer du fake data}
+
 \begin{onlyenv}<1>
-	\begin{citation}{}
+	\begin{block}{Détection des pseudonymes}
+		\vspace{1cm}
 		Le contrat de travail de Mme \textbf{X...} \textbf{YYY} née le \textbf{[...]} demeurant \textbf{xxxxxxx}, passant à temps partiel
 	sur une base de 20 heures 
-	\end{citation}
+	\end{block}
 \end{onlyenv}
 \begin{onlyenv}<2>
-	\begin{citation}{}
+	\begin{block}{Classification des pseudonymes}
+		\vspace{1cm}
 		Le contrat de travail de Mme \textbf{PER} \textbf{PER} née le \textbf{DATE} demeurant \textbf{LOC}, passant à temps partiel
 		sur une base de 20 heures 
-	\end{citation}
+	\end{block}
 \end{onlyenv}
 
 \begin{onlyenv}<3>
-	\begin{citation}{}
+	\begin{block}{Remplacement des pseudonymes (par rapport à leur classe)}
+		\vspace{1cm}
 		Le contrat de travail de Mme \textbf{Marie} \textbf{DUPONT} née le \textbf{01 janvier 2018}, demeurant \textbf{99 rue Raoul Servant 69007 LYON}, passant à temps partiel
 		sur une base de 20 heures 
-	\end{citation}
+	\end{block}
 \end{onlyenv}
+
+
+\end{frame}
+
+\begin{frame}{Conclusion}
+
+
+\begin{itemize}
+	\item La tâche semble faisable avec des méthodes du Machine Learning / NLP
+	\item Le nettoyage du texte et le post-traitement semblent très importants
+	\item Plus des données sont nécessaires pour valider nos approches 
+\end{itemize}
 
 \end{frame}
 \begin{frame}[standout]
@@ -271,9 +287,8 @@
  Des questions~?\\
  
  \vspace{1cm}
- 
+ \url{github.com/psorianom}  
  \url{twitter.com/psorianom} 
- \url{github.com/psorianom} 
 \end{frame}
 
 \appendix
